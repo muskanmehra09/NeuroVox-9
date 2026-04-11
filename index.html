@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emotion Recognition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 Upload Voice Sample</h1>
+    <p class="subtitle">Let our cute robot detect your emotion!</p>
+
+    <div class="upload-box">
+      <label for="audioFile">Select Audio File:</label>
+      <input type="file" id="audioFile" accept=".wav">
+      <button onclick="uploadAudio()">Predict Emotion</button>
+    </div>
+
+    <div id="result"></div>
+
+    <div class="robot">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" alt="Cute Robot">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
